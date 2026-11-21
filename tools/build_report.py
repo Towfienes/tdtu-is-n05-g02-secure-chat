@@ -138,10 +138,10 @@ def make_report(template, output, repository):
         link.append(run._r)
         paragraph._p.append(link)
         p(
-            "The private repository contains the source code and reproducible demo instructions."
+            "The public repository contains the source code and reproducible demo instructions."
         )
     else:
-        p("Repository link: Pending publication to the group’s private repository.")
+        p("Repository link: Pending publication to the group’s repository.")
         p("Submission draft — repository link and instructor access are pending.")
 
     h("1. Executive Summary")

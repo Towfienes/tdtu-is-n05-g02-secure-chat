@@ -7,7 +7,7 @@
 | DOC/PDF describing the demo | Both formats under `report/`, based on the supplied course template |
 | Environment, implementation, walkthrough, evidence, limitations and attributions | Technical report, Sections 1–7, and these raw evidence files |
 | Repository URL | [GitHub repository](https://github.com/Towfienes/tdtu-is-n05-g02-secure-chat), linked from the report |
-| Instructor read access | The repository is private. Access must be granted to the instructor’s confirmed GitHub account |
+| Instructor read access | The public GitHub repository is readable without an account |
 
 ## Changes checked against the earlier build
 
