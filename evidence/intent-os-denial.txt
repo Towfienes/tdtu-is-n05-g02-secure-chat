@@ -1,0 +1,20 @@
+Starting: Intent { cmp=vn.tdtu.securechat.pinned/vn.tdtu.securechat.DetailActivity (has extras) }
+
+Exception occurred while executing 'start':
+java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000 xflg=0x4 cmp=vn.tdtu.securechat.pinned/vn.tdtu.securechat.DetailActivity (has extras) } from null (pid=11502, uid=2000) not exported from uid 10221
+	at com.android.server.wm.ActivityTaskSupervisor.checkStartAnyActivityPermission(ActivityTaskSupervisor.java:1211)
+	at com.android.server.wm.ActivityStarter.executeRequest(ActivityStarter.java:1231)
+	at com.android.server.wm.ActivityStarter.execute(ActivityStarter.java:870)
+	at com.android.server.wm.ActivityTaskManagerService.startActivityAndWait(ActivityTaskManagerService.java:1600)
+	at com.android.server.am.ActivityManagerService.startActivityAndWait(ActivityManagerService.java:3268)
+	at com.android.server.am.ActivityManagerShellCommand.runStartActivity(ActivityManagerShellCommand.java:864)
+	at com.android.server.am.ActivityManagerShellCommand.onCommand(ActivityManagerShellCommand.java:250)
+	at com.android.modules.utils.BasicShellCommandHandler.exec(BasicShellCommandHandler.java:97)
+	at android.os.ShellCommand.exec(ShellCommand.java:38)
+	at com.android.server.am.ActivityManagerService.onShellCommand(ActivityManagerService.java:10418)
+	at android.os.Binder.shellCommand(Binder.java:1151)
+	at android.os.Binder.onTransact(Binder.java:953)
+	at android.app.IActivityManager$Stub.onTransact(IActivityManager.java:5739)
+	at com.android.server.am.ActivityManagerService.onTransact(ActivityManagerService.java:2735)
+	at android.os.Binder.execTransactInternal(Binder.java:1426)
+	at android.os.Binder.execTransact(Binder.java:1365)

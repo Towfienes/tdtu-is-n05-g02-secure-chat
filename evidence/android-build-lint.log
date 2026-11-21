@@ -1,0 +1,154 @@
+Starting a Gradle Daemon, 1 incompatible and 1 stopped Daemons could not be reused, use --status for details
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preBaselineDebugBuild UP-TO-DATE
+> Task :app:mergeBaselineDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generateBaselineDebugBuildConfig
+> Task :app:generateBaselineDebugResValues
+> Task :app:generateBaselineDebugResources
+> Task :app:packageBaselineDebugResources
+> Task :app:processBaselineDebugNavigationResources
+> Task :app:generateBaselineDebugAssets UP-TO-DATE
+> Task :app:javaPreCompileBaselineDebug
+> Task :app:mergeBaselineDebugAssets
+> Task :app:compressBaselineDebugAssets
+> Task :app:parseBaselineDebugLocalResources
+> Task :app:generateBaselineDebugGlobalSynthetics
+> Task :app:desugarBaselineDebugFileDependencies
+> Task :app:checkBaselineDebugDuplicateClasses
+> Task :app:checkBaselineDebugAarMetadata
+> Task :app:generateBaselineDebugRFile
+> Task :app:compileBaselineDebugKotlin NO-SOURCE
+> Task :app:mergeExtDexBaselineDebug
+> Task :app:compileBaselineDebugJavaWithJavac
+> Task :app:processBaselineDebugJavaRes NO-SOURCE
+> Task :app:mapBaselineDebugSourceSetPaths
+> Task :app:mergeLibDexBaselineDebug
+> Task :app:compileBaselineDebugNavigationResources
+> Task :app:createBaselineDebugCompatibleScreenManifests
+> Task :app:extractDeepLinksBaselineDebug
+> Task :app:mergeBaselineDebugResources
+> Task :app:mergeBaselineDebugJavaResource
+> Task :app:processBaselineDebugMainManifest
+> Task :app:processBaselineDebugManifest
+> Task :app:mergeBaselineDebugJniLibFolders
+> Task :app:mergeBaselineDebugNativeLibs NO-SOURCE
+> Task :app:stripBaselineDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningBaselineDebug
+> Task :app:writeBaselineDebugAppMetadata
+> Task :app:writeBaselineDebugSigningConfigVersions
+> Task :app:prePinnedDebugBuild UP-TO-DATE
+> Task :app:mergePinnedDebugNativeDebugMetadata NO-SOURCE
+> Task :app:generatePinnedDebugBuildConfig
+> Task :app:generatePinnedDebugResValues
+> Task :app:generatePinnedDebugResources
+> Task :app:packagePinnedDebugResources
+> Task :app:processPinnedDebugNavigationResources
+> Task :app:generatePinnedDebugAssets UP-TO-DATE
+> Task :app:javaPreCompilePinnedDebug
+> Task :app:mergePinnedDebugAssets
+> Task :app:parsePinnedDebugLocalResources
+> Task :app:compressPinnedDebugAssets
+> Task :app:generatePinnedDebugRFile
+> Task :app:generatePinnedDebugGlobalSynthetics
+> Task :app:compilePinnedDebugKotlin NO-SOURCE
+> Task :app:compilePinnedDebugJavaWithJavac
+> Task :app:checkPinnedDebugDuplicateClasses
+> Task :app:desugarPinnedDebugFileDependencies
+> Task :app:processPinnedDebugJavaRes NO-SOURCE
+> Task :app:mergeLibDexPinnedDebug
+> Task :app:checkPinnedDebugAarMetadata
+> Task :app:mapPinnedDebugSourceSetPaths
+> Task :app:compilePinnedDebugNavigationResources
+> Task :app:mergePinnedDebugJavaResource
+> Task :app:createPinnedDebugCompatibleScreenManifests
+> Task :app:mergePinnedDebugResources
+> Task :app:extractDeepLinksPinnedDebug
+> Task :app:processPinnedDebugMainManifest
+> Task :app:processPinnedDebugManifest
+> Task :app:mergePinnedDebugJniLibFolders
+> Task :app:mergePinnedDebugNativeLibs NO-SOURCE
+> Task :app:processPinnedDebugManifestForPackage
+> Task :app:stripPinnedDebugDebugSymbols NO-SOURCE
+> Task :app:validateSigningPinnedDebug
+> Task :app:writePinnedDebugAppMetadata
+> Task :app:writePinnedDebugSigningConfigVersions
+> Task :app:prePinnedDebugAndroidTestBuild SKIPPED
+> Task :app:processPinnedDebugResources
+> Task :app:mergePinnedDebugAndroidTestManifest
+> Task :app:mergeExtDexPinnedDebug
+> Task :app:dexBuilderPinnedDebug
+> Task :app:processPinnedDebugAndroidTestManifest
+> Task :app:generatePinnedDebugAndroidTestBuildConfig
+> Task :app:bundlePinnedDebugClassesToCompileJar
+> Task :app:generatePinnedDebugAndroidTestResValues
+> Task :app:mergeProjectDexPinnedDebug
+> Task :app:generatePinnedDebugAndroidTestResources
+> Task :app:packagePinnedDebugAndroidTestResources
+> Task :app:processPinnedDebugAndroidTestNavigationResources
+> Task :app:generatePinnedDebugAndroidTestAssets UP-TO-DATE
+> Task :app:javaPreCompilePinnedDebugAndroidTest
+> Task :app:parsePinnedDebugAndroidTestLocalResources
+> Task :app:mergePinnedDebugAndroidTestAssets
+> Task :app:processBaselineDebugManifestForPackage
+> Task :app:compressPinnedDebugAndroidTestAssets
+> Task :app:generatePinnedDebugAndroidTestRFile
+> Task :app:processBaselineDebugResources
+> Task :app:generatePinnedDebugAndroidTestGlobalSynthetics
+> Task :app:dexBuilderBaselineDebug
+> Task :app:compilePinnedDebugAndroidTestKotlin NO-SOURCE
+> Task :app:mergeProjectDexBaselineDebug
+> Task :app:compilePinnedDebugAndroidTestJavaWithJavac
+> Task :app:checkPinnedDebugAndroidTestDuplicateClasses
+> Task :app:packagePinnedDebug
+> Task :app:createPinnedDebugApkListingFileRedirect
+> Task :app:assemblePinnedDebug
+> Task :app:desugarPinnedDebugAndroidTestFileDependencies
+> Task :app:processPinnedDebugAndroidTestJavaRes NO-SOURCE
+> Task :app:mergeLibDexPinnedDebugAndroidTest
+> Task :app:checkPinnedDebugAndroidTestAarMetadata
+> Task :app:mapPinnedDebugAndroidTestSourceSetPaths
+> Task :app:compilePinnedDebugAndroidTestNavigationResources
+> Task :app:mergePinnedDebugAndroidTestResources
+> Task :app:mergePinnedDebugAndroidTestJniLibFolders
+> Task :app:mergePinnedDebugAndroidTestJavaResource
+> Task :app:mergePinnedDebugAndroidTestNativeLibs NO-SOURCE
+> Task :app:stripPinnedDebugAndroidTestDebugSymbols NO-SOURCE
+> Task :app:validateSigningPinnedDebugAndroidTest
+> Task :app:writePinnedDebugAndroidTestSigningConfigVersions
+> Task :app:processPinnedDebugAndroidTestResources
+> Task :app:mergeExtDexPinnedDebugAndroidTest
+> Task :app:generatePinnedDebugAndroidTestLintModel
+> Task :app:dexBuilderPinnedDebugAndroidTest
+> Task :app:extractProguardFiles
+> Task :app:mergeProjectDexPinnedDebugAndroidTest
+> Task :app:generatePinnedDebugLintReportModel
+> Task :app:prePinnedDebugUnitTestBuild UP-TO-DATE
+> Task :app:generatePinnedDebugUnitTestLintModel
+> Task :app:packagePinnedDebugAndroidTest
+> Task :app:createPinnedDebugAndroidTestApkListingFileRedirect
+> Task :app:assemblePinnedDebugAndroidTest
+> Task :app:packageBaselineDebug
+> Task :app:createBaselineDebugApkListingFileRedirect
+> Task :app:assembleBaselineDebug
+> Task :app:assembleDebug
+> Task :app:lintAnalyzePinnedDebugAndroidTest
+> Task :app:lintAnalyzePinnedDebugUnitTest
+> Task :app:lintAnalyzePinnedDebug
+
+> Task :app:lintReportPinnedDebug
+Wrote HTML report to file:///home/towfienes/TDTU/InforSecur/Final_Demonstration/.lab/recovery-csM6Zc/extracted/android/app/build/reports/lint-results-pinnedDebug.html
+Wrote SARIF report to file:///home/towfienes/TDTU/InforSecur/Final_Demonstration/.lab/recovery-csM6Zc/extracted/android/app/build/reports/lint-results-pinnedDebug.sarif
+
+> Task :app:lintPinnedDebug
+
+[Incubating] Problems report is available at: file:///home/towfienes/TDTU/InforSecur/Final_Demonstration/.lab/recovery-csM6Zc/extracted/android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.8.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 1m 3s
+111 actionable tasks: 111 executed
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.8.1/userguide/configuration_cache_enabling.html

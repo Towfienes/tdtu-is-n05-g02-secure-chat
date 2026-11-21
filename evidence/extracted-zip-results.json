@@ -1,0 +1,87 @@
+{
+  "android_release": "16",
+  "api": 36,
+  "architecture": "x86_64",
+  "tests": [
+    {
+      "case": "Baseline + A",
+      "observed": "TLS accepted and GET returned 200",
+      "status": "PASS"
+    },
+    {
+      "case": "Baseline + B",
+      "observed": "TLS accepted and GET returned 200",
+      "status": "PASS"
+    },
+    {
+      "case": "Empty message",
+      "observed": "Rejected in the Android UI",
+      "status": "PASS"
+    },
+    {
+      "case": "Pinned + A",
+      "observed": "TLS accepted and GET returned 200",
+      "status": "PASS"
+    },
+    {
+      "case": "Pinned + B",
+      "observed": "Pin verification failed. No HTTP request reached Handler.",
+      "status": "PASS"
+    },
+    {
+      "case": "Pinned + backup key",
+      "observed": "TLS accepted and GET returned 200",
+      "status": "PASS"
+    },
+    {
+      "case": "Pinned + untrusted CA",
+      "observed": "Trust anchor rejected. No HTTP request reached Handler.",
+      "status": "PASS"
+    },
+    {
+      "case": "Pinned + A restored",
+      "observed": "One POST returned 201 with the updated chat. No follow-up GET.",
+      "status": "PASS"
+    },
+    {
+      "case": "Private Activity within app",
+      "observed": "Explicit navigation displayed message #1",
+      "status": "PASS"
+    },
+    {
+      "case": "Two-client conversation",
+      "observed": "Both Android variants read messages sent by the other.",
+      "status": "PASS"
+    },
+    {
+      "case": "Encrypted cache after process restart",
+      "observed": "Message restored. Marker absent from 93 stored bytes.",
+      "status": "PASS"
+    },
+    {
+      "case": "Backend offline",
+      "observed": "UI reports unreachable backend and keeps cached conversation",
+      "status": "PASS"
+    },
+    {
+      "case": "Compact portrait and large text",
+      "observed": "360 dp width at 125% font scale. Cache and controls visible.",
+      "status": "PASS"
+    },
+    {
+      "case": "Landscape rotation preserves draft",
+      "observed": "Draft and actions remain visible in landscape.",
+      "status": "PASS"
+    },
+    {
+      "case": "Private Activity from shell UID",
+      "observed": "Android returned Permission Denial (not exported)",
+      "status": "PASS"
+    },
+    {
+      "case": "Android instrumentation",
+      "observed": "2 tests passed: cache authentication, manifest and ID validation",
+      "status": "PASS"
+    }
+  ]
+}

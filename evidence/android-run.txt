@@ -1,0 +1,16 @@
+PASS Baseline + A: TLS accepted and GET returned 200
+PASS Baseline + B: TLS accepted and GET returned 200
+PASS Empty message: Rejected in the Android UI
+PASS Pinned + A: TLS accepted and GET returned 200
+PASS Pinned + B: Pin verification failed. No HTTP request reached Handler.
+PASS Pinned + backup key: TLS accepted and GET returned 200
+PASS Pinned + untrusted CA: Trust anchor rejected. No HTTP request reached Handler.
+PASS Pinned + A restored: One POST returned 201 with the updated chat. No follow-up GET.
+PASS Private Activity within app: Explicit navigation displayed message #1
+PASS Two-client conversation: Both Android variants read messages sent by the other.
+PASS Encrypted cache after process restart: Message restored. Marker absent from 93 stored bytes.
+PASS Backend offline: UI reports unreachable backend and keeps cached conversation
+PASS Compact portrait and large text: 360 dp width at 125% font scale. Cache and controls visible.
+PASS Landscape rotation preserves draft: Draft and actions remain visible in landscape.
+PASS Private Activity from shell UID: Android returned Permission Denial (not exported)
+PASS Android instrumentation: 2 tests passed: cache authentication, manifest and ID validation

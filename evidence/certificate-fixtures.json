@@ -1,0 +1,50 @@
+[
+  {
+    "fixture": "a",
+    "certificate": [
+      "issuer=CN=TDTU Demo lab CA",
+      "subject=CN=localhost",
+      "X509v3 Subject Alternative Name: ",
+      "    DNS:localhost"
+    ],
+    "spki_sha256": "Ot8DB3i/X5ZmSA7b8kn88cPLK/G2p9gyfV/Kt3weXvw=",
+    "matches_pin": true,
+    "valid_for_lab_ca_and_localhost": true
+  },
+  {
+    "fixture": "b",
+    "certificate": [
+      "issuer=CN=TDTU Demo lab CA",
+      "subject=CN=localhost",
+      "X509v3 Subject Alternative Name: ",
+      "    DNS:localhost"
+    ],
+    "spki_sha256": "eCmpGXFbXHRz9TpOV79tZHtwNMzpDEVqx7M+ajlpGm0=",
+    "matches_pin": false,
+    "valid_for_lab_ca_and_localhost": true
+  },
+  {
+    "fixture": "backup",
+    "certificate": [
+      "issuer=CN=TDTU Demo lab CA",
+      "subject=CN=localhost",
+      "X509v3 Subject Alternative Name: ",
+      "    DNS:localhost"
+    ],
+    "spki_sha256": "AXJFMhbdMSwxkzUgMaCxrC9BGppilt4nzn9UtzuDDDQ=",
+    "matches_pin": true,
+    "valid_for_lab_ca_and_localhost": true
+  },
+  {
+    "fixture": "untrusted",
+    "certificate": [
+      "issuer=CN=TDTU Demo other CA",
+      "subject=CN=localhost",
+      "X509v3 Subject Alternative Name: ",
+      "    DNS:localhost"
+    ],
+    "spki_sha256": "8Kje1lYOnt+t8S1M+Bk5OcUyBdRyvrE3vfeYt5rIe2w=",
+    "matches_pin": false,
+    "valid_for_lab_ca_and_localhost": false
+  }
+]

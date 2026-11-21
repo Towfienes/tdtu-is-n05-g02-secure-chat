@@ -1,0 +1,53 @@
+plugins {
+    id 'com.android.application' version '9.4.1'
+}
+
+android {
+    namespace 'vn.tdtu.securechat'
+    compileSdk 36
+
+    defaultConfig {
+        applicationId 'vn.tdtu.securechat'
+        minSdk 36
+        targetSdk 36
+        versionCode 1
+        versionName '1.0'
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+    }
+
+    buildFeatures {
+        buildConfig = true
+        resValues = true
+    }
+
+    flavorDimensions 'policy'
+    productFlavors {
+        baseline {
+            dimension 'policy'
+            applicationIdSuffix '.baseline'
+            buildConfigField 'String', 'POLICY', '"Baseline"'
+            resValue 'string', 'app_name', 'Secure Chat Baseline'
+        }
+        pinned {
+            dimension 'policy'
+            applicationIdSuffix '.pinned'
+            buildConfigField 'String', 'POLICY', '"Pinned"'
+            resValue 'string', 'app_name', 'Secure Chat Pinned'
+        }
+    }
+
+    sourceSets {
+        baseline.res.srcDir 'generated/baseline'
+        pinned.res.srcDir 'generated/pinned'
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+}
+
+dependencies {
+    androidTestImplementation 'androidx.test:runner:1.7.0'
+    androidTestImplementation 'androidx.test.ext:junit:1.3.0'
+}
