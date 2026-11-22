@@ -1,5 +1,7 @@
 # Secure Android Chat
 
+GitHub repository · [Towfienes/tdtu-is-n05-g02-secure-chat](https://github.com/Towfienes/tdtu-is-n05-g02-secure-chat)
+
 [![Android 16](https://img.shields.io/badge/Android-16%20%2F%20API%2036-168048)](https://developer.android.com/about/versions/16)
 [![Emulator checks](https://img.shields.io/badge/Emulator-16%2F16%20passed-2563eb)](evidence/results.json)
 [![Backend checks](https://img.shields.io/badge/Backend-4%2F4%20passed-2563eb)](evidence/backend-unit-tests.txt)
